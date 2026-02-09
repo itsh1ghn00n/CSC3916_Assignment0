@@ -1,0 +1,50 @@
+GET https://openlibrary.org/search.json?title=Turing
+200
+104 ms
+
+Network
+Request Headers
+User-Agent: PostmanRuntime/7.51.1 = Client making the request
+Accept: */* = Accept any response type
+Postman-Token: 9e2517fc-5523-49d6-9935-a01ec91ad4e9 = Request tracking ID
+Host: openlibrary.org - Host Server
+Accept-Encoding: gzip, deflate, br = Accept gzip/deflate compression protocols
+Connection: keep-alive = Keep connection open
+
+Response Headers
+Server: nginx/1.28.1 = Server software
+Date: Mon, 09 Feb 2026 01:58:05 GMT = Response timestamp
+Content-Type: application/json = JSON response
+Transfer-Encoding: chunked = Chunked data transfer
+Connection: keep-alive = Persistent connection
+x-served-by: FastAPI = Backend framework
+Referrer-Policy: no-referrer-when-downgrade = Controls referrer data
+Content-Encoding: gzip = Gzip compression
+
+===========================================
+
+GET https://openlibrary.org/works/OL61215W.json
+200
+151 ms
+
+Network
+Request Headers
+User-Agent: PostmanRuntime/7.51.1 = Client software
+Accept: */* = Accept any type
+Postman-Token: 20779b35-d7e9-412f-9770-0f48bf5b2074 = Request tracking ID
+Host: openlibrary.org - Host Server
+Accept-Encoding: gzip, deflate, br = Accept gzip/deflate compression protocols
+Connection: keep-alive = Reuse connection
+
+Response Headers
+Server: nginx/1.28.1 = Server software
+Date: Mon, 09 Feb 2026 02:24:37 GMT
+Content-Type: application/json = JSON data
+Transfer-Encoding: chunked = Chunked response
+Connection: keep-alive = Persistent connection
+access-control-allow-origin: *  = Allow all origins
+access-control-allow-method: GET, OPTIONS = Allowed HTTP methods
+access-control-max-age: 86400 = CORS cache duration
+x-ol-stats: "MC 2 0.001 TT 0 0.004" = Internal server stats
+Referrer-Policy: no-referrer-when-downgrade = Referrer control
+Content-Encoding: gzip = Gzip compression
